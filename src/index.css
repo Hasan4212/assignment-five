@@ -1,6 +1,12 @@
 @import "tailwindcss"; 
 @plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 
+.inter {
+  font-family: 'Inter', sans-serif;
+}
 
-
+.jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
 
