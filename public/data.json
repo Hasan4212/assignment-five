@@ -6,7 +6,8 @@
     "category": "Frontend",
     "description": "A JavaScript library for building modern and interactive user interfaces.",
     "icon": "/Icons/React.svg.png",
-    "rating": 4.9,
+    "rating": 4.9, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Intermediate",
     "badge": "Popular"
   },
@@ -16,9 +17,10 @@
     "category": "Frontend",
     "description": "An approachable, performant, and versatile framework for building web user interfaces.",
     "icon": "/Icons/vue.png",
-    "rating": 4.8,
+    "rating": 4.8, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Beginner-Friendly",
-    "badge": "Fast"
+    "badge": "Versatile"
   },
   {
     "id": 3,
@@ -26,9 +28,10 @@
     "category": "Frontend",
     "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
     "icon": "/Icons/Svelte.svg.png",
-    "rating": 4.8,
+    "rating": 4.8, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Fast"
   },
   {
     "id": 4,
@@ -36,9 +39,10 @@
     "category": "Frontend",
     "description": "The React framework for full-stack web applications with hybrid static & server rendering.",
     "icon": "/Icons/Next.js.png",
-    "rating": 4.9,
-    "difficulty": "Intermediate",
-    "badge": "Essential"
+    "rating": 4.9, 
+    "star": "/Icons/Symbol.png",
+    "difficulty": "Intermediate"
+    
   },
   {
     "id": 5,
@@ -46,9 +50,10 @@
     "category": "Backend",
     "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
     "icon": "/Icons/Node.js.svg.png",
-    "rating": 4.8,
+    "rating": 4.8, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Standard"
   },
   {
     "id": 6,
@@ -56,9 +61,10 @@
     "category": "Database",
     "description": "A powerful open-source relational database management system.",
     "icon": "/Icons/PostgreSQL.png",
-    "rating": 4.9,
+    "rating": 4.9, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Intermediate",
-    "badge": "Essential"
+    "badge": "Top SQL"
   },
   {
     "id": 7,
@@ -66,9 +72,10 @@
     "category": "Database",
     "description": "In-memory data structure store used as ahigh-speed database, cache, and message broker.",
     "icon": "/Icons/Redis.png",
-    "rating": 4.8,
+    "rating": 4.8, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Intermediate",
-    "badge": "Essential"
+    "badge": "Cache"
   },
   {
     "id": 8,
@@ -76,9 +83,10 @@
     "category": "Language",
     "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
     "icon": "/Icons/JavaScript.png",
-    "rating": 4.9,
+    "rating": 4.9, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Ubiquitous"
   },
   {
     "id": 9,
@@ -86,9 +94,10 @@
     "category": "Language",
     "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
     "icon": "/Icons/TypeScript.png",
-    "rating": 4.9,
+    "rating": 4.9, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Intermediate",
-    "badge": "Fast"
+    "badge": "Essential"
   },
   {
     "id": 10,
@@ -96,9 +105,10 @@
     "category": "Language",
     "description": "A secure, object-oriented programming language designed for portability and scale.",
     "icon": "/Icons/Java.svg.png",
-    "rating": 4.6,
+    "rating": 4.6, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Intermediate",
-    "badge": "Essential"
+    "badge": "Robust"
   },
   {
     "id": 11,
@@ -106,17 +116,19 @@
     "category": "Styling",
     "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
     "icon": "/Icons/Tailwind-CSS.svg.png",
-    "rating": 4.9,
+    "rating": 4.9, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Beginner-Friendly",
-    "badge": "Containers"
+    "badge": "Modern"
   },
   {
     "id": 12,
     "name": "Docker",
     "category": "DevOps",
     "description": "A platform designed to build, share, and run containerized applications reliably.",
-    "icon": "./Icons/Docker.svg.png",
-    "rating": 4.9,
+    "icon": "/Icons/Docker.svg.png",
+    "rating": 4.9, 
+    "star": "/Icons/Symbol.png",
     "difficulty": "Intermediate",
     "badge": "Containers"
   }

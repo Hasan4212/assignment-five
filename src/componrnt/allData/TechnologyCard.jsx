@@ -1,7 +1,26 @@
 
+
 const TechnologyCard = ({ item, onAdd,isAdded  }) => {
     return (
-        <div className="border border-gray-200 rounded-xl p-5">
+        <div className="relative border border-gray-200 rounded-xl p-5">
+
+<span
+    className={`jakarta absolute top-3 right-3 text-xs px-3 py-1 rounded-full
+        ${
+            ["Popular", "Essential", "Top SQL", "Containers", "Modern", "Robust"].includes(item.badge)
+                ? "bg-[#F0F9FF] text-[#0284C7]"
+                : ["Fast", "Ubiquitous"].includes(item.badge)
+                ? "bg-[#FFF7ED] text-[#EC6A25]"
+                : ["Versatile", "Standard"].includes(item.badge)
+                ? "bg-[#ECFDF5] text-[#149D72]"
+                : item.badge === "Cache"
+                ? "bg-[#FEF2F2] text-[#E24C4C]"
+                : ""
+        }
+    `}
+>
+    {item.badge}
+</span>
 
             <img
                 src={item.icon}
@@ -20,7 +39,8 @@ const TechnologyCard = ({ item, onAdd,isAdded  }) => {
             <div className="flex justify-between text-xs mt-5">
                 <span>{item.category}</span>
                 <span>{item.difficulty}</span>
-                <span>⭐ {item.rating}</span>
+                <span className="flex items-center gap-1" > <img src={item.star} alt="rating" className="w-3 h-3" />
+<span>{item.rating}</span> </span>
             </div>
 
         <button

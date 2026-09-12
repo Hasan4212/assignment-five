@@ -5,7 +5,8 @@ export interface Idata {
     "category": string,
     "description": string,
     "icon": string,
-    "rating": number,
+    "rating": number, 
+    "star": string,
     "difficulty": string,
     "badge": string
 }
