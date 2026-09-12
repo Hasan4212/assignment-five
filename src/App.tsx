@@ -6,6 +6,7 @@ import Banner from './componrnt/banner';
 import BodyTittle from './componrnt/bodyTittle'; 
 import Data from './componrnt/allData/data';
 import type {Idata} from './types/dataType'; 
+import Footer from './componrnt/footer';
 
 
 const dataFetch = async(): Promise<Idata[]> => {
@@ -26,7 +27,8 @@ const dataPromise = dataFetch()
   <BodyTittle></BodyTittle> 
   <Suspense fallback= {<h2>Loading.....</h2>}>
     <Data dataPromise = {dataPromise} />
-  </Suspense>
+  </Suspense> 
+  <Footer></Footer>
   
     </>
   )
