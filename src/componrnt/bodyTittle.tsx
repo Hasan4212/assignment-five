@@ -9,7 +9,7 @@ const BodyTittle = () => {
             </h2> 
             <p className="jakarta">Pick one technology per category to build your ideal stack.</p>
         </div>
-    );
+ );
 };
 
-export default BodyTittle;
+export default BodyTittle; 

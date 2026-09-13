@@ -35,24 +35,21 @@ const AvailableSites = ({ data }: AvailableSitesProps) => {
     return (
         <section className="mx-20 py-10">
 
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+           <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
 
-                <div className="lg:col-span-3">
+             <div className="lg:col-span-3">
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                        {data.map((item) => (
-                            <TechnologyCard
-                                key={item.id}
-                                item={item}
-                                onAdd={handleAdd}
-                                isAdded={stack.some(
-                                    (tech) => tech.id === item.id
-                                )}
-                            />
+            {data.map((item) => (
+             <TechnologyCard
+                        key={item.id}
+                        item={item}
+                        onAdd={handleAdd}isAdded={stack.some( (tech) => tech.id === item.id )} /> 
+
                         ))}
 
-                    </div>
+                 </div>
 
                 </div>
 
@@ -65,10 +62,8 @@ const AvailableSites = ({ data }: AvailableSitesProps) => {
                         onRemoveAll={handleRemoveAll}
                     />
 
-                </div>
-
+             </div>
             </div>
-
         </section>
     );
 };

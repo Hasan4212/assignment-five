@@ -6,18 +6,16 @@ const TechnologyCard = ({ item, onAdd,isAdded  }) => {
 
 <span
     className={`jakarta absolute top-3 right-3 text-xs px-3 py-1 rounded-full
-        ${
-            ["Popular", "Essential", "Top SQL", "Containers", "Modern", "Robust"].includes(item.badge)
-                ? "bg-[#F0F9FF] text-[#0284C7]"
-                : ["Fast", "Ubiquitous"].includes(item.badge)
-                ? "bg-[#FFF7ED] text-[#EC6A25]"
-                : ["Versatile", "Standard"].includes(item.badge)
-                ? "bg-[#ECFDF5] text-[#149D72]"
-                : item.badge === "Cache"
-                ? "bg-[#FEF2F2] text-[#E24C4C]"
-                : ""
-        }
-    `}
+       
+        ${ ["Popular", "Essential", "Top SQL", "Containers", "Modern", "Robust"].includes(item.badge)
+             ? "bg-[#F0F9FF] text-[#0284C7]"
+           : ["Fast", "Ubiquitous"].includes(item.badge)
+        ? "bg-[#FFF7ED] text-[#EC6A25]"
+      : ["Versatile", "Standard"].includes(item.badge)
+     ? "bg-[#ECFDF5] text-[#149D72]"
+       : item.badge === "Cache"
+      ? "bg-[#FEF2F2] text-[#E24C4C]": ""
+    }`}
 >
     {item.badge}
 </span>
