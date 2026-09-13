@@ -1,4 +1,12 @@
-const YourStack = ({ stack, onRemove, onRemoveAll }) => {
+import type { Idata } from '../../types/dataType';
+
+interface YourStackProps {
+  stack: Idata[];
+  onRemove: (id: number) => void;
+  onRemoveAll: () => void;
+}
+
+const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
     return (
         <div className="border border-gray-200 rounded-xl p-5">
 

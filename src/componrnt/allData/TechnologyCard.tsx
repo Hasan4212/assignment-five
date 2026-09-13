@@ -1,6 +1,12 @@
+import type { Idata } from '../../types/dataType';
 
+interface TechnologyCardProps {
+  item: Idata;
+  onAdd: (item: Idata) => void;
+  isAdded: boolean;
+}
 
-const TechnologyCard = ({ item, onAdd,isAdded  }) => {
+const TechnologyCard = ({ item, onAdd, isAdded }: TechnologyCardProps) => {
     return (
         <div className="relative border border-gray-200 rounded-xl p-5">
 
